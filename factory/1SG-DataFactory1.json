@@ -1,0 +1,9 @@
+{
+	"name": "1SG-DataFactory1",
+	"location": "ukwest",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "9f688782-10c5-4d8f-aaf0-038684ca8753",
+		"tenantId": "9252817d-85c4-4620-97eb-4839fbcf8b6c"
+	}
+}
