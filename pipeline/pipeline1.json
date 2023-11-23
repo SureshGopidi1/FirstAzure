@@ -43,12 +43,48 @@
 						"mappings": [
 							{
 								"source": {
-									"name": "Username; Identifier;First name;Last name",
+									"name": "Username",
 									"type": "String",
 									"physicalType": "String"
 								},
 								"sink": {
-									"name": "Username; Identifier;First name;Last name",
+									"name": "Username",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Identifier",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Identifier",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "First name",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "First name",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Last name",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Last name",
 									"type": "String",
 									"physicalType": "String"
 								}
@@ -63,13 +99,13 @@
 				},
 				"inputs": [
 					{
-						"referenceName": "DelimitedText1",
+						"referenceName": "DelimitedText2",
 						"type": "DatasetReference"
 					}
 				],
 				"outputs": [
 					{
-						"referenceName": "DelimitedText1",
+						"referenceName": "DelimitedText2",
 						"type": "DatasetReference"
 					}
 				]
