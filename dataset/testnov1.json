@@ -1,0 +1,40 @@
+{
+	"name": "testnov1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "username.csv",
+				"container": "input"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "Username",
+				"type": "String"
+			},
+			{
+				"name": "Identifier",
+				"type": "String"
+			},
+			{
+				"name": "First name",
+				"type": "String"
+			},
+			{
+				"name": "Last name",
+				"type": "String"
+			}
+		]
+	}
+}
